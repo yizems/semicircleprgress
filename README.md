@@ -29,3 +29,20 @@
 | bg_end_color         | 未选中的背景色 渐变结束的颜色 |
 | progress_start_color | 选中的背景色 渐变开始的颜色   |
 | progress_end_color   | 选中的背景色 渐变结束的颜色   |
+
+## 4 依赖添加
+
+
+```gradle
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+    
+dependencies {
+	        compile 'com.github.yizeliang:semicircleprgress:1.0'
+	}
+
+```
