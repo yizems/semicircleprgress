@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <attr name="progress_start_color" format="color" />
+    <attr name="progress_end_color" format="color" />
+
+    <attr name="bg_start_color" format="color" />
+    <attr name="bg_end_color" format="color" />
+
+    <attr name="progress" format="integer" />
+
+    <attr name="progress_width" format="dimension" />
+
+    <declare-styleable name="SemicircleProgress">
+        <attr name="progress_start_color" />
+        <attr name="progress_end_color" />
+        <attr name="bg_start_color" />
+        <attr name="bg_end_color" />
+        <attr name="progress" />
+        <attr name="progress_width" />
+    </declare-styleable>
+
+</resources>
